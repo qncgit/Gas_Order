@@ -1,0 +1,19 @@
+# ==============================================================================
+# File: GAS_ORDER/requirements.txt
+# ==============================================================================
+# --- Giao diện Người dùng (GUI) ---
+PyQt5==5.15.10
+qfluentwidgets==2.4.1
+
+# --- Giao tiếp API ---
+requests==2.31.0
+
+# --- Xuất file báo cáo Excel ---
+openpyxl==3.1.2
+
+# --- Tương tác Phần cứng (USB) ---
+# Dành cho máy in hóa đơn nhiệt (ESC/POS)
+python-escpos==3.1
+
+# Dành cho máy đọc thẻ RFID (nếu hoạt động như một cổng COM ảo)
+pyserial==3.5
